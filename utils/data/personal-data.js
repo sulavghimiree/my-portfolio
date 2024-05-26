@@ -10,5 +10,5 @@ export const personalData = {
   facebook: 'https://www.facebook.com/sulavghimiree/',
   linkedIn: 'https://www.linkedin.com/in/sulav-ghimire-425606258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   twitter: 'https://x.com/SulavGhimiree',
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: ""
 }
