@@ -63,12 +63,12 @@ function ProjectCard({ project }) {
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Code:</span>
-            <span className="text-cyan-400"><a href={project.code} target='_blank'>{project.code}</a></span>
+            <span className="text-cyan-400"><a href={project.code} target='_blank'><u>{project.code}</u></a></span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Demo:</span>
-            <span className="text-cyan-400"><a href={project.demo} target='_blank'>{project.demo}</a></span>
+            <span className="text-cyan-400"><a href={project.demo} target='_blank'><u>{project.code}</u></a></span>
             <span className="text-gray-400">,</span>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
