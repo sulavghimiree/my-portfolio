@@ -6,23 +6,13 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'Grocery Management System',
-        description: "Me and my team built a Grocery Management System which is a computer offline application for our mini project in college using C# (DotNet Framework). We created the layout using Windows Forms .NET and handled the backend using C# and for database we used MySQL. We developed this application using Microsoft Visual Studio but we couldn't deploy it as we were changing our course towards web development. ",
-        tools: ['C#', 'DotNet', 'MySQL'],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
+        name: 'Weather Web App',
+        description: "This is a web app which tells weather conditions of city if you give the city name. It is developed using plain HTML, CSS and JavaScript. It also gives icon according to weather condition like rainy, cloudy, sunny etc. If you want to find the weather conditions of your city you can use this application.",
+        tools: ['HTML', 'CSS', 'JavaScript'],
+        role: 'Front End Developer',
+        code: 'https://github.com/sulavghimiree/weather-app',
+        demo: 'https://sulavghimiree.github.io/weather-app/',
         image: ayla,
-    },
-    {
-        id: 2,
-        name: 'Ghar-Dera (A Room Renting Web App)',
-        description: 'Me and my team are developing a Room Renting System which is completely an Web Application for our minor project in college using React, Express and MongoDB. We are trying to create the layout using React js and handle backend using Express js. For database we will use MongoDB. We are tying to build it using Visual Studio Code and also we will deploy it as our first deployed project.',
-        tools: ['Tailwind CSS', "React", "NodeJS", "ExpressJS", "MongoDB"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: realEstate,
     },
 ];
 
